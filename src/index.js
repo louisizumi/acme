@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Notice from './components/Notice';
-import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Notice />
-    <Navbar />
+    <Hero />
   </React.StrictMode>,
   document.getElementById('root')
 );

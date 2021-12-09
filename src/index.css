@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  max-width: 100%;
+}
+
 .btn {
   @apply inline-block px-5 py-3 font-medium;
+}
+
+.container {
+  @apply p-5vw;
 }
