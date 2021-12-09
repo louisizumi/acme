@@ -5,18 +5,26 @@ module.exports = {
     extend: {
       padding: {
         '5vw': '5vw',
+        '10vw': '10vw',
+        '5vh': '5vh',
+        '10vh': '10vh',
+      },
+      minWidth: {
+        '64px': '64px',
       },
       minHeight: {
         'nav': '64px',
+        '50vw': '50vw',
       },
     },
     colors: {
-      'white': '#FFFFFF',
       'black': '#000000',
+      'white': '#FFFFFF',
       'blue': '#134AE9',
       'midnight': '#1B263A',
-      'sky-dark': '#C2DEF8',
-      'sky-light': '#DCEFF9',
+      'accent': '#85F1F0',
+      'gradient-dark': '#DCEFF9',
+      'gradient-light': '#C2DEF8',
     },
   },
   variants: {

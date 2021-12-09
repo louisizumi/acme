@@ -1,5 +1,5 @@
-import companyLogo from '../logo.svg'
-import hamburger from '../hamburger.svg'
+import companyLogo from '../images/logo.svg'
+import hamburger from '../images/hamburger.svg'
 
 const navItems = ['Lorem.', 'Ipsum.', 'Dolor.', 'Sit amet.'];
 
