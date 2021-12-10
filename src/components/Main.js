@@ -8,7 +8,8 @@ import zapierLogo from '../images/zapier_logo.svg';
 import productTreeSmall from '../images/product-tree-small.png';
 import productTreeLarge from '../images/product-tree-large.png';
 import productExample from '../images/product-example.png';
-import productPage from '../images/product-page.png'
+import productPage from '../images/product-page.png';
+import productGraphic from '../images/product-graphic.svg';
 
 export default function Main() {
   return (
@@ -29,7 +30,7 @@ export default function Main() {
         <div className="max-w-3xl">
           <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Sem enim cursus orci at.</h2>
           <p className="mb-4 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, vitae et, vitae et cursus amet tincidunt feugiat nulla. Senectus maecenas diam risus sodales dictum eu. Eget cursus sit bibendum pulvinar faucibus vitae nam sed. Faucibus vel laoreet.</p>
-          <a href="/" className="product-link">Learn more</a>
+          <a href="/" className="product-link border-blue">Learn more</a>
         </div>
         <img src={productTreeSmall} alt="product tree" className="lg:hidden mx-auto mt-5vh" />
         <img src={productTreeLarge} alt="product tree" className="hidden lg:block mx-auto" />
@@ -51,7 +52,20 @@ export default function Main() {
       <section className="px-6 md:px-24 pt-24 text-center">
         <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Dui tellus quis magna id ultricies eu sed.</h2>
         <p className="mb-8 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet vestibulum molestie amet, maecenas id amet. Ipsum accumsan arcu, aenean viverra penatibus quis. Laoreet.</p>
-        <img src={productPage} alt="product page example" />
+        <img src={productPage} alt="product page example" className="mx-auto" />
+      </section>
+      <section className="md:p-6 pt-24">
+        <div className="px-6 py-8 sm:p-16 md:p-24 bg-blue">
+          <div className="relative">
+            <div className="z-10 lg:absolute left-0 max-w-xl text-white">
+              <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Ultrices euismod curabitur sapien nunc.</h2>
+              <p className="mb-4 lg:text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat neque dignissim morbi lacinia volutpat est. Pulvinar scelerisque at urna elit quisque pellentesque. Quam cursus.</p>
+              <a href="/" className="product-link border-white">Learn more</a>
+            </div>
+            <img src={productGraphic} alt="product graphic" className="lg:absolute right-0" />
+            <img src={productGraphic} alt="product graphic" className="hidden invisible lg:block " />
+          </div>
+        </div>
       </section>
     </div>
   )
