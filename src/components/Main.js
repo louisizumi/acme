@@ -46,7 +46,7 @@ export default function Main() {
           </div>
           <div>
             <img src={productExample} alt="product example" className="absolute -right-4 lg:max-w-lg xl:max-w-none" />
-            <img src={productExample} alt="product example" className="invisible max-w-full md:max-w-lg" />
+            <img src={productExample} alt="product example" className="invisible max-w-full" />
           </div>
         </div>
       </section>
@@ -58,13 +58,13 @@ export default function Main() {
       <section className="md:p-6 pt-24">
         <div className="px-6 py-8 sm:p-16 md:p-24 bg-blue">
           <div className="relative">
-            <div className="z-10 lg:absolute left-0 max-w-xl text-white">
+            <div className="z-10 lg:absolute top-0 left-0 max-w-xl text-white">
               <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Ultrices euismod curabitur sapien nunc.</h2>
               <p className="mb-4 lg:text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat neque dignissim morbi lacinia volutpat est. Pulvinar scelerisque at urna elit quisque pellentesque. Quam cursus.</p>
               <a href="/" className="product-link border-white">Learn more</a>
             </div>
-            <img src={productGraphic} alt="product graphic" className="lg:absolute right-0" />
-            <img src={productGraphic} alt="product graphic" className="hidden invisible lg:block " />
+            <img src={productGraphic} alt="product graphic" className="lg:absolute right-0 bottom-0" />
+            <img src={productGraphic} alt="product graphic" className="hidden invisible lg:block py-8" />
           </div>
         </div>
       </section>
