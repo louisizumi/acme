@@ -48,6 +48,11 @@ export default function Main() {
           </div>
         </div>
       </section>
+      <section className="px-6 md:px-24 pt-24 text-center">
+        <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Dui tellus quis magna id ultricies eu sed.</h2>
+        <p className="mb-8 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet vestibulum molestie amet, maecenas id amet. Ipsum accumsan arcu, aenean viverra penatibus quis. Laoreet.</p>
+        <img src={productPage} alt="product page example" />
+      </section>
     </div>
   )
 }
