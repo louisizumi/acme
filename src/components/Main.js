@@ -10,6 +10,7 @@ import productTreeLarge from '../images/product-tree-large.png';
 import productExample from '../images/product-example.png';
 import productPage from '../images/product-page.png';
 import productGraphic from '../images/product-graphic.svg';
+import headshot from '../images/person.png';
 
 export default function Main() {
   return (
@@ -64,6 +65,22 @@ export default function Main() {
             </div>
             <img src={productGraphic} alt="product graphic" className="lg:absolute right-0" />
             <img src={productGraphic} alt="product graphic" className="hidden invisible lg:block " />
+          </div>
+        </div>
+      </section>
+      <section className="px-6 pt-24 sm:p-16 md:p-24 text-midnight">
+        <div className="xl:flex justify-between items-center gap-36">
+          <img src={headshot} alt="headshot" className="mx-auto xl:mx-0 bg-light" />
+          <div className="mt-16 xl:mt-0 w-full h-full">
+            <div className="xl:max-w-xl">
+              <p>Vulputate vel vitae id ornare.</p>
+              <p className="mb-10 font-semibold">Amet quis.</p>
+              <h2 className="mb-10 text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget enim vel.</h2>
+              <div className="text-center pb-32 xl:pb-0 xl:text-left">
+                <a href="/" className="product-link border-blue mt-36 xl:mt-0">Read Customer Story</a>
+                <div className="-mt-36 xl:mt-24 w-44 h-11 bg-midnight"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
