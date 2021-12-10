@@ -18,8 +18,8 @@ export default function Hero() {
             <DemoForm />
           </div>
           <div>
-            <img src={productChatSmall} alt="product chat" className="md:hidden mx-auto" />
-            <img src={productChatLarge} alt="product chat" className="hidden md:block mx-auto" />
+            <img src={productChatSmall} alt="product chat" className="lg:hidden mx-auto" />
+            <img src={productChatLarge} alt="product chat" className="hidden lg:block mx-auto" />
           </div>
         </div>
       </div>
