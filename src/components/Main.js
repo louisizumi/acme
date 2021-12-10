@@ -33,7 +33,7 @@ export default function Main() {
           <p className="mb-4 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, vitae et, vitae et cursus amet tincidunt feugiat nulla. Senectus maecenas diam risus sodales dictum eu. Eget cursus sit bibendum pulvinar faucibus vitae nam sed. Faucibus vel laoreet.</p>
           <a href="/" className="product-link border-blue">Learn more</a>
         </div>
-        <img src={productTreeSmall} alt="product tree" className="lg:hidden mx-auto mt-5vh" />
+        <img src={productTreeSmall} alt="product tree" className="lg:hidden mx-auto mt-12" />
         <img src={productTreeLarge} alt="product tree" className="hidden lg:block mx-auto" />
       </section>
       <section className="mx-auto px-6 pt-24 max-w-screen-2xl">
