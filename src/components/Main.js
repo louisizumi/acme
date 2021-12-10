@@ -15,7 +15,7 @@ import headshot from '../images/person.png';
 export default function Main() {
   return (
     <div className="text-midnight">
-      <section className="px-6 sm:px-16 md:px-32 pt-24 text-center text-midnight">
+      <section className="mx-auto px-6 sm:px-16 md:px-32 pt-24 max-w-screen-2xl text-center text-midnight">
         <h2 className="mb-16 text-2xl lg:text-3xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.</h2>
         <div className="flex justify-around items-center gap-8">
           <img src={segmentLogo} alt="segment logo" className="hidden xl:block" />
@@ -27,7 +27,7 @@ export default function Main() {
         </div>
         <a href="/" className="product-link mt-16">Ut eleifend.</a>
       </section>
-      <section className="px-6 md:px-24 pt-24">
+      <section className="mx-auto px-6 md:px-24 pt-24 max-w-screen-2xl">
         <div className="max-w-3xl">
           <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Sem enim cursus orci at.</h2>
           <p className="mb-4 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, vitae et, vitae et cursus amet tincidunt feugiat nulla. Senectus maecenas diam risus sodales dictum eu. Eget cursus sit bibendum pulvinar faucibus vitae nam sed. Faucibus vel laoreet.</p>
@@ -36,7 +36,7 @@ export default function Main() {
         <img src={productTreeSmall} alt="product tree" className="lg:hidden mx-auto mt-5vh" />
         <img src={productTreeLarge} alt="product tree" className="hidden lg:block mx-auto" />
       </section>
-      <section className="px-6 pt-24">
+      <section className="mx-auto px-6 pt-24 max-w-screen-2xl">
         <div className="relative lg:grid grid-cols-2 gap-12 p-6 sm:p-16 md:p-24 bg-gradient-to-l from-gradient-dark via-gradient-mid to-gradient-light">
           <div className="lg:flex justify-center items-center mb-8 xl:mb-0">
             <div className="max-w-xl">
@@ -50,12 +50,12 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="px-6 md:px-24 pt-24 text-center">
+      <section className="mx-auto px-6 md:px-24 pt-24 max-w-screen-2xl text-center">
         <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Dui tellus quis magna id ultricies eu sed.</h2>
         <p className="mb-8 lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet vestibulum molestie amet, maecenas id amet. Ipsum accumsan arcu, aenean viverra penatibus quis. Laoreet.</p>
         <img src={productPage} alt="product page example" className="mx-auto" />
       </section>
-      <section className="md:p-6 pt-24">
+      <section className="mx-auto md:p-6 pt-24 max-w-screen-2xl">
         <div className="px-6 py-8 sm:p-16 md:p-24 bg-blue">
           <div className="relative">
             <div className="z-10 lg:absolute top-0 left-0 max-w-xl text-white">
@@ -68,7 +68,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="px-6 pt-24 sm:p-16 md:p-24 text-midnight">
+      <section className="mx-auto px-6 pt-24 sm:p-16 md:p-24 max-w-screen-2xl text-midnight">
         <div className="xl:flex justify-between items-center gap-36">
           <img src={headshot} alt="headshot" className="mx-auto xl:mx-0 bg-light" />
           <div className="mt-16 xl:mt-0 w-full h-full">

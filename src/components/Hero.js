@@ -12,7 +12,7 @@ export default function Hero() {
         <Notice />
         <Navbar />
       </div>
-      <div className="flex-1 flex justify-center items-center p-6 sm:p-24 w-full min-h-full">
+      <div className="flex-1 flex justify-center items-center p-6 sm:p-24 w-full max-w-screen-2xl min-h-full">
         <div className="lg:grid grid-cols-2 gap-12">
           <div className="mb-8 text-white lg:mb-0">
             <DemoForm />
