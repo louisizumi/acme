@@ -9,6 +9,9 @@ module.exports = {
         '5vh': '5vh',
         '10vh': '10vh',
       },
+      margin: {
+        '5vh': '5vh',
+      },
       minWidth: {
         '64px': '64px',
       },
@@ -24,6 +27,7 @@ module.exports = {
       'midnight': '#1B263A',
       'accent': '#85F1F0',
       'gradient-dark': '#DCEFF9',
+      'gradient-mid': '#CFEEF5',
       'gradient-light': '#C2DEF8',
     },
   },

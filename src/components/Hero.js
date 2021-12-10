@@ -11,7 +11,7 @@ export default function Hero() {
         <Notice />
         <Navbar />
       </div>
-      <div className="flex-1 flex justify-center items-center p-5vw min-h-full">
+      <div className="flex-1 flex justify-center items-center p-6 sm:p-24 min-h-full">
         <div className="lg:grid grid-cols-2 gap-12">
           <div className="mb-8 text-white lg:mb-0">
             <h1 className="mb-4 text-4xl lg:text-5xl xl:text-7xl font-semibold">Vel quis feugiat pharetra diam viverra quis.</h1>
