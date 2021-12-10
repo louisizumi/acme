@@ -34,6 +34,20 @@ export default function Main() {
         <img src={productTreeSmall} alt="product tree" className="lg:hidden mx-auto mt-5vh" />
         <img src={productTreeLarge} alt="product tree" className="hidden lg:block mx-auto" />
       </section>
+      <section className="px-6 pt-24">
+        <div className="relative lg:grid grid-cols-2 gap-12 p-6 sm:p-16 md:p-24 bg-gradient-to-l from-gradient-dark via-gradient-mid to-gradient-light">
+          <div className="lg:flex justify-center items-center mb-8 xl:mb-0">
+            <div className="max-w-xl">
+              <h2 className="mb-4 text-3xl lg:text-4xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et id.</h2>
+              <p className="lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus augue ut diam viverra. Velit donec ultrices sed id dui quis nunc tempor.</p>
+            </div>
+          </div>
+          <div>
+            <img src={productExample} alt="product example" className="absolute -right-4 lg:max-w-lg xl:max-w-none" />
+            <img src={productExample} alt="product example" className="invisible max-w-full md:max-w-lg" />
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
