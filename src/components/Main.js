@@ -25,7 +25,7 @@ export default function Main() {
           <img src={closeLogo} alt="close logo" className="hidden md:block" />
           <img src={prezlyLogo} alt="prezly logo" className="hidden xl:block" />
         </div>
-        <a href="/" className="product-link mt-16">Ut eleifend.</a>
+        <a href="/" className="product-link border-blue mt-16">Ut eleifend.</a>
       </section>
       <section className="section sm:px-24">
         <div className="max-w-3xl">
