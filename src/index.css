@@ -10,30 +10,40 @@ html {
   @apply flex justify-center items-center;
 }
 
-.btn {
-  @apply inline-block px-5 py-3 font-medium;
-}
-
-.product-link {
-  @apply inline-block border-b-2 pb-1 font-bold;
-}
-
-.footer-dropdown {
-  @apply flex justify-between items-center border-b lg:border-none border-white border-opacity-25;
-}
-
-.dropdown-header {
-  @apply py-3 text-xl font-semibold;
-}
-
-.footer-links {
-  @apply hidden lg:block;
-}
-
-.footer-links--open {
-  @apply block;
-}
-
-.legal-link {
-  @apply block mb-4 sm:mb-0;
+@layer components {
+  .section {
+    @apply mx-auto p-6 sm:py-12 max-w-screen-2xl;
+  }
+  
+  .h2 {
+    @apply mb-4 text-3xl lg:text-4xl font-semibold;
+  }
+  
+  .btn {
+    @apply inline-block px-5 py-3 font-medium;
+  }
+  
+  .product-link {
+    @apply inline-block border-b-2 pb-1 font-bold;
+  }
+  
+  .footer-dropdown {
+    @apply flex justify-between items-center border-b lg:border-none border-white border-opacity-25;
+  }
+  
+  .dropdown-header {
+    @apply py-3 text-xl font-semibold;
+  }
+  
+  .footer-links {
+    @apply hidden lg:block;
+  }
+  
+  .footer-links--open {
+    @apply block;
+  }
+  
+  .legal-link {
+    @apply block mb-4 sm:mb-0;
+  }
 }
