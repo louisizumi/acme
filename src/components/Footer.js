@@ -25,7 +25,7 @@ export default function Footer() {
             <li>Et volutpat.</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <div className="footer-dropdown">
             <h3 className="dropdown-header">Urna.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
@@ -39,7 +39,7 @@ export default function Footer() {
             <li>Sed ipsum lobortis.</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <div className="footer-dropdown">
             <h3 className="dropdown-header">Leo.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
@@ -51,7 +51,7 @@ export default function Footer() {
             <li>Et cursus fingilla.</li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <div className="footer-dropdown">
             <h3 className="dropdown-header">Duis.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
