@@ -63,12 +63,12 @@ export default function Footer() {
             <li>Risus.</li>
           </ul>
         </div>
-        <a href="/">
-          <div className="relative my-8 lg:m-2 p-6 border border-white border-opacity-25 lg:max-w-xs min-w-xs">
+        <div className="lg:max-w-xs min-w-xs">
+          <a href="/" className="block relative my-8 lg:m-2 p-6 border border-white border-opacity-25">
             <img src={externalLink} alt="external link" className="absolute top-2 right-2" />
             <p className="text-xs font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu rhoncus, maecenas scelerisque. Tristique massa.</p>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
       <div className="xl:flex justify-between lg:mt-32">
         <div className="max-w-xl">
