@@ -13,7 +13,7 @@ export default function Navbar() {
             navItems.map((navItem, index) => {
               return (
                 <li className="mr-16" key={index}>
-                  {navItem}
+                  <a href="/">{navItem}</a>
                 </li>
               )
             })
