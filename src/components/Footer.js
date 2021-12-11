@@ -11,7 +11,7 @@ export default function Footer() {
         <DemoForm />
       </div>
       <div className="lg:flex flex-wrap justify-between gap-24">
-        <div className="">
+        <div>
           <div className="footer-dropdown">
             <h3 className="dropdown-header">Est.</h3>
             <img src={arrowUp} alt="up arrow" className="lg:hidden" />
