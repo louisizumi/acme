@@ -36,11 +36,11 @@ html {
   }
   
   .footer-links {
-    @apply hidden lg:block;
+    @apply hidden lg:block font-light;
   }
   
   .footer-links--open {
-    @apply block;
+    @apply block font-light;
   }
   
   .legal-link {
