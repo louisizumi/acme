@@ -17,3 +17,23 @@ html {
 .product-link {
   @apply inline-block border-b-2 pb-1 font-bold;
 }
+
+.footer-dropdown {
+  @apply flex justify-between items-center border-b lg:border-none border-white border-opacity-25;
+}
+
+.dropdown-header {
+  @apply py-3 text-xl font-semibold;
+}
+
+.footer-links {
+  @apply hidden lg:block;
+}
+
+.footer-links--open {
+  @apply block;
+}
+
+.legal-link {
+  @apply block mb-4 sm:mb-0;
+}

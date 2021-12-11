@@ -12,11 +12,11 @@ export default function Footer() {
       </div>
       <div className="lg:flex flex-wrap justify-between gap-24">
         <div className="">
-          <div className="flex justify-between items-center border-b lg:border-none border-white border-opacity-25">
-            <h3 className="py-3 text-xl font-semibold">Est.</h3>
+          <div className="footer-dropdown">
+            <h3 className="dropdown-header">Est.</h3>
             <img src={arrowUp} alt="up arrow" className="lg:hidden" />
           </div>
-          <ul>
+          <ul className="footer-links--open">
             <li>Vitae nec.</li>
             <li>Purus.</li>
             <li>Nibh.</li>
@@ -26,11 +26,11 @@ export default function Footer() {
           </ul>
         </div>
         <div className="">
-          <div className="flex justify-between items-center border-b lg:border-none border-white border-opacity-25">
-            <h3 className="py-3 text-xl font-semibold">Urna.</h3>
+          <div className="footer-dropdown">
+            <h3 className="dropdown-header">Urna.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
-          <ul className="hidden lg:block">
+          <ul className="footer-links">
             <li>Mauris.</li>
             <li>Ac ut cras.</li>
             <li>Purus.</li>
@@ -40,11 +40,11 @@ export default function Footer() {
           </ul>
         </div>
         <div className="">
-          <div className="flex justify-between items-center border-b lg:border-none border-white border-opacity-25">
-            <h3 className="py-3 text-xl font-semibold">Leo.</h3>
+          <div className="footer-dropdown">
+            <h3 className="dropdown-header">Leo.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
-          <ul className="hidden lg:block">
+          <ul className="footer-links">
             <li>Nulla maecenas nunc.</li>
             <li>Marris.</li>
             <li>In velit sagittis.</li>
@@ -52,11 +52,11 @@ export default function Footer() {
           </ul>
         </div>
         <div className="">
-          <div className="flex justify-between items-center border-b lg:border-none border-white border-opacity-25">
-            <h3 className="py-3 text-xl font-semibold">Duis.</h3>
+          <div className="footer-dropdown">
+            <h3 className="dropdown-header">Duis.</h3>
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
-          <ul className="hidden lg:block">
+          <ul className="footer-links">
             <li>Id.</li>
             <li>Aliquam.</li>
             <li>Interdum.</li>
@@ -76,9 +76,9 @@ export default function Footer() {
           <p className="mb-8 opacity-50 text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor proin tempor sed fermentum sit pretium pellentesque. Dictumst risus elementum dignissim risus, lobortis molestie.</p>
         </div>
         <div className="sm:flex sm:justify-between gap-4 sm:gap-8 md:gap-16 mx-auto md:mx-0 max-w-xl">
-          <a href="/" className="block mb-4 sm:mb-0">Terms & Conditions</a>
-          <a href="/" className="block mb-4 sm:mb-0">Privacy Policy</a>
-          <a href="/" className="block mb-4 sm:mb-0">Cookie Policy</a>
+          <a href="/" className="legal-link">Terms & Conditions</a>
+          <a href="/" className="legal-link">Privacy Policy</a>
+          <a href="/" className="legal-link">Cookie Policy</a>
         </div>
       </div>
     </footer>
