@@ -80,11 +80,11 @@ export default function Main() {
                 <a href="/" className="product-link border-blue mt-36 xl:mt-0">Read Customer Story</a>
                 <div className="grid grid-cols-2 xs:grid-cols-stories gap-1 sm:gap-2 mx-auto xl:mx-0 -mt-48 xs:-mt-40 xl:mt-24 max-w-lg">
                   <div className="w-full h-9 bg-midnight"></div>
-                  <div className="w-full h-9 bg-light-grey"></div>
-                  <div className="w-full h-9 bg-light-grey"></div>
-                  <div className="w-full h-9 bg-light-grey"></div>
-                  <div className="w-full h-9 bg-light-grey"></div>
-                  <div className="w-full h-9 bg-light-grey"></div>
+                  <div className="w-full h-9 bg-light-grey hover:bg-midnight transition duration-100"></div>
+                  <div className="w-full h-9 bg-light-grey hover:bg-midnight transition duration-100"></div>
+                  <div className="w-full h-9 bg-light-grey hover:bg-midnight transition duration-100"></div>
+                  <div className="w-full h-9 bg-light-grey hover:bg-midnight transition duration-100"></div>
+                  <div className="w-full h-9 bg-light-grey hover:bg-midnight transition duration-100"></div>
                 </div>
               </div>
             </div>
