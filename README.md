@@ -2,6 +2,8 @@
 
 My submission for the frontend developer development test.
 
+Est total time: ~20h
+
 ## Features
 
 * Implemented in React
