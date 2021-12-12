@@ -17,12 +17,12 @@ export default function Footer() {
             <img src={arrowUp} alt="up arrow" className="lg:hidden" />
           </div>
           <ul className="footer-links--open">
-            <li>Vitae nec.</li>
-            <li>Purus.</li>
-            <li>Nibh.</li>
-            <li>Blandit.</li>
-            <li>Malesuada.</li>
-            <li>Et volutpat.</li>
+            <li><a href="/">Vitae nec.</a></li>
+            <li><a href="/">Purus.</a></li>
+            <li><a href="/">Nibh.</a></li>
+            <li><a href="/">Blandit.</a></li>
+            <li><a href="/">Malesuada.</a></li>
+            <li><a href="/">Et volutpat.</a></li>
           </ul>
         </div>
         <div>
@@ -31,12 +31,12 @@ export default function Footer() {
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
           <ul className="footer-links">
-            <li>Mauris.</li>
-            <li>Ac ut cras.</li>
-            <li>Purus.</li>
-            <li>Nunc elementum.</li>
-            <li>Sit ac interdum.</li>
-            <li>Sed ipsum lobortis.</li>
+            <li><a href="/">Mauris.</a></li>
+            <li><a href="/">Ac ut cras.</a></li>
+            <li><a href="/">Purus.</a></li>
+            <li><a href="/">Nunc elementum.</a></li>
+            <li><a href="/">Sit ac interdum.</a></li>
+            <li><a href="/">Sed ipsum lobortis.</a></li>
           </ul>
         </div>
         <div>
@@ -45,10 +45,10 @@ export default function Footer() {
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
           <ul className="footer-links">
-            <li>Nulla maecenas nunc.</li>
-            <li>Marris.</li>
-            <li>In velit sagittis.</li>
-            <li>Et cursus fingilla.</li>
+            <li><a href="/">Nulla maecenas nunc.</a></li>
+            <li><a href="/">Marris.</a></li>
+            <li><a href="/">In velit sagittis.</a></li>
+            <li><a href="/">Et cursus fingilla.</a></li>
           </ul>
         </div>
         <div>
@@ -57,10 +57,10 @@ export default function Footer() {
             <img src={arrowDown} alt="down arrow" className="lg:hidden" />
           </div>
           <ul className="footer-links">
-            <li>Id.</li>
-            <li>Aliquam.</li>
-            <li>Interdum.</li>
-            <li>Risus.</li>
+            <li><a href="/">Id.</a></li>
+            <li><a href="/">Aliquam.</a></li>
+            <li><a href="/">Interdum.</a></li>
+            <li><a href="/">Risus.</a></li>
           </ul>
         </div>
         <div className="lg:max-w-xs min-w-xs">
