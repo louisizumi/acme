@@ -5,12 +5,12 @@ import productboardLogo from '../images/productboard_logo.svg';
 import segmentLogo from '../images/segment_logo.svg';
 import zapierLogo from '../images/zapier_logo.svg';
 
-import productTreeSmall from '../images/product-tree-small.png';
-import productTreeLarge from '../images/product-tree-large.png';
-import productExample from '../images/product-example.png';
-import productPage from '../images/product-page.png';
-import productGraphic from '../images/product-graphic.svg';
-import headshot from '../images/person.png';
+import productTreeLarge from '../images/product_2a-wide.svg';
+import productTreeSmall from '../images/product_2b-small.svg';
+import productExample from '../images/product_3.svg';
+import productPage from '../images/product_4.svg';
+import productGraphic from '../images/product_5.svg';
+import headshot from '../images/headshot.svg';
 
 export default function Main() {
   return (
@@ -78,7 +78,14 @@ export default function Main() {
               <h2 className="mb-10 text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget enim vel.</h2>
               <div className="pb-32 lg:pb-0 text-center lg:text-left">
                 <a href="/" className="product-link border-blue mt-36 lg:mt-0">Read Customer Story</a>
-                <div className="-mt-36 lg:mt-24 w-44 h-11 bg-midnight"></div>
+                <div className="grid grid-cols-3 gap-2 -mt-36 lg:mt-24">
+                  <div className="w-36 h-9 bg-midnight"></div>
+                  <div className="w-36 h-9 bg-light"></div>
+                  <div className="w-36 h-9 bg-light"></div>
+                  <div className="w-36 h-9 bg-light"></div>
+                  <div className="w-36 h-9 bg-light"></div>
+                  <div className="w-36 h-9 bg-light"></div>
+                </div>
               </div>
             </div>
           </div>

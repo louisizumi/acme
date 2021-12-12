@@ -2,8 +2,8 @@ import Notice from './Notice';
 import Navbar from './Navbar';
 import DemoForm from './DemoForm';
 
-import productChatSmall from '../images/product-chat-small.png';
-import productChatLarge from '../images/product-chat-large.png';
+import productChatLarge from '../images/product_1a-wide.png';
+import productChatSmall from '../images/product_1b-small.png';
 
 export default function Hero() {
   return (
