@@ -58,7 +58,7 @@ export default function Main() {
       <section className="section px-0 lg:px-6">
         <div className="p-6 sm:p-24 bg-blue">
           <div className="relative">
-            <div className="z-10 lg:absolute top-0 left-0 max-w-xl text-white">
+            <div className="z-10 lg:absolute top-0 left-0 max-w-lg text-white">
               <h2 className="h2">Ultrices euismod curabitur sapien nunc.</h2>
               <p className="mb-4 lg:text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat neque dignissim morbi lacinia volutpat est. Pulvinar scelerisque at urna elit quisque pellentesque. Quam cursus.</p>
               <a href="/" className="product-link border-white">Learn more</a>
@@ -70,7 +70,7 @@ export default function Main() {
       </section>
       <section className="section sm:px-24">
         <div className="xl:flex justify-between items-center gap-24 xl:gap-36">
-          <img src={headshot} alt="headshot" className="mx-auto xl:mx-0 bg-light" />
+          <img src={headshot} alt="headshot" className="mx-auto xl:mx-0 bg-grey" />
           <div className="mt-16 xl:mt-0 w-full h-full">
             <div className="xl:max-w-xl">
               <p>Vulputate vel vitae id ornare.</p>
@@ -80,11 +80,11 @@ export default function Main() {
                 <a href="/" className="product-link border-blue mt-36 xl:mt-0">Read Customer Story</a>
                 <div className="grid grid-cols-2 xs:grid-cols-stories gap-1 sm:gap-2 mx-auto xl:mx-0 -mt-48 xs:-mt-40 xl:mt-24 max-w-lg">
                   <div className="w-full h-9 bg-midnight"></div>
-                  <div className="w-full h-9 bg-light"></div>
-                  <div className="w-full h-9 bg-light"></div>
-                  <div className="w-full h-9 bg-light"></div>
-                  <div className="w-full h-9 bg-light"></div>
-                  <div className="w-full h-9 bg-light"></div>
+                  <div className="w-full h-9 bg-light-grey"></div>
+                  <div className="w-full h-9 bg-light-grey"></div>
+                  <div className="w-full h-9 bg-light-grey"></div>
+                  <div className="w-full h-9 bg-light-grey"></div>
+                  <div className="w-full h-9 bg-light-grey"></div>
                 </div>
               </div>
             </div>
