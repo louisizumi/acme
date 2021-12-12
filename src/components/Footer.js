@@ -7,7 +7,9 @@ import externalLink from '../images/external_link.svg';
 export default function Footer() {
   return (
     <footer className="sm:mt-12 px-6 py-24 sm:p-24 bg-midnight text-white">
-      <div className="mb-32 lg:mb-48">
+      <div className="mb-32 lg:mb-48 max-w-3xl">
+        <h1 className="mb-4 text-4xl lg:text-5xl font-semibold">Vel quis feugiat pharetra diam viverra quis.</h1>
+        <p className="mb-8 lg:text-xl font-light">Interdum enim platea sagittis vitae vitae. Odio adipiscing odio enim pharetra lorem ut sagittis nibh enim. Posuere.</p>
         <DemoForm />
       </div>
       <div className="lg:flex flex-wrap justify-between gap-24">

@@ -14,7 +14,9 @@ export default function Hero() {
       </div>
       <div className="flex-1 flex-center p-6 sm:p-16 md:p-24 w-full max-w-screen-2xl min-h-full">
         <div className="lg:grid grid-cols-2 gap-12">
-          <div className="mb-8 text-white lg:mb-0">
+          <div className="mb-8 text-white lg:mb-0 max-w-3xl">
+            <h1 className="mb-4 text-4xl lg:text-5xl xl:text-7xl font-semibold">Vel quis feugiat pharetra diam viverra quis.</h1>
+            <p className="mb-8 lg:text-xl font-light">Interdum enim platea sagittis vitae vitae. Odio adipiscing odio enim pharetra lorem ut sagittis nibh enim. Posuere.</p>
             <DemoForm />
           </div>
           <div>
