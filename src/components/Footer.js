@@ -75,7 +75,7 @@ export default function Footer() {
           <h4 className="mb-5 text-sm font-bold">Pretium pellentesque massa.</h4>
           <p className="mb-8 opacity-50 text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor proin tempor sed fermentum sit pretium pellentesque. Dictumst risus elementum dignissim risus, lobortis molestie.</p>
         </div>
-        <div className="flex justify-between gap-4 sm:gap-8 md:gap-16 mx-auto md:mx-0 max-w-xl">
+        <div className="xs:flex justify-between gap-4 sm:gap-8 md:gap-16 mx-auto md:mx-0 max-w-xl">
           <a href="/" className="legal-link">Terms & Conditions</a>
           <a href="/" className="legal-link">Privacy Policy</a>
           <a href="/" className="legal-link">Cookie Policy</a>

@@ -40,7 +40,7 @@ export default function Main() {
         <div className="relative lg:grid grid-cols-2 gap-16 p-6 sm:p-24 bg-gradient-to-l from-gradient-dark via-gradient-mid to-gradient-light">
           <div className="lg:flex justify-center items-center mb-8 xl:mb-0">
             <div className="max-w-xl">
-              <h2 className="h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et id.</h2>
+              <h2 className="h2 break-words">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et id.</h2>
               <p className="lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus augue ut diam viverra. Velit donec ultrices sed id dui quis nunc tempor.</p>
             </div>
           </div>
