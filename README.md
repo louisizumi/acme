@@ -1,6 +1,6 @@
 # Acme (development test)
 
-My submission for the frontend developer development test.
+Submission by Louis Drinkwater for the frontend developer development test.
 
 Est total time: ~20h
 
