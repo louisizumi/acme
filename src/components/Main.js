@@ -69,22 +69,22 @@ export default function Main() {
         </div>
       </section>
       <section className="section sm:px-24">
-        <div className="lg:flex justify-between items-center gap-24 xl:gap-36">
-          <img src={headshot} alt="headshot" className="mx-auto lg:mx-0 bg-light" />
-          <div className="mt-16 lg:mt-0 w-full h-full">
-            <div className="lg:max-w-xl">
+        <div className="xl:flex justify-between items-center gap-24 xl:gap-36">
+          <img src={headshot} alt="headshot" className="mx-auto xl:mx-0 bg-light" />
+          <div className="mt-16 xl:mt-0 w-full h-full">
+            <div className="xl:max-w-xl">
               <p>Vulputate vel vitae id ornare.</p>
               <p className="mb-10 font-semibold">Amet quis.</p>
               <h2 className="mb-10 text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget enim vel.</h2>
-              <div className="pb-32 lg:pb-0 text-center lg:text-left">
-                <a href="/" className="product-link border-blue mt-36 lg:mt-0">Read Customer Story</a>
-                <div className="grid grid-cols-3 gap-2 -mt-36 lg:mt-24">
-                  <div className="w-36 h-9 bg-midnight"></div>
-                  <div className="w-36 h-9 bg-light"></div>
-                  <div className="w-36 h-9 bg-light"></div>
-                  <div className="w-36 h-9 bg-light"></div>
-                  <div className="w-36 h-9 bg-light"></div>
-                  <div className="w-36 h-9 bg-light"></div>
+              <div className="pb-32 xl:pb-0 text-center xl:text-left">
+                <a href="/" className="product-link border-blue mt-36 xl:mt-0">Read Customer Story</a>
+                <div className="grid grid-cols-2 xs:grid-cols-stories gap-1 sm:gap-2 mx-auto xl:mx-0 -mt-48 xs:-mt-40 xl:mt-24 max-w-lg">
+                  <div className="w-full h-9 bg-midnight"></div>
+                  <div className="w-full h-9 bg-light"></div>
+                  <div className="w-full h-9 bg-light"></div>
+                  <div className="w-full h-9 bg-light"></div>
+                  <div className="w-full h-9 bg-light"></div>
+                  <div className="w-full h-9 bg-light"></div>
                 </div>
               </div>
             </div>

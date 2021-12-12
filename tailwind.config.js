@@ -2,6 +2,14 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'xs': '400px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
         'black': '#000000',
@@ -13,6 +21,9 @@ module.exports = {
         'gradient-dark': '#DCEFF9',
         'gradient-mid': '#CFEEF5',
         'gradient-light': '#C2DEF8',
+      },
+      gridTemplateColumns: {
+        'stories': 'repeat(3, minmax(7.5rem, 10rem))'
       },
     },
   },
